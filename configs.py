@@ -10,7 +10,7 @@ class Config:
     API_HASH = getenv("API_HASH", "f68cde581603434533bbdf92763d158b")
     BOT_TOKEN = getenv("BOT_TOKEN", "7760935742:AAFoisU71ElLwY-WJBLMx9_8x-RnQI2Xvcc")
     FSUB = getenv("FSUB", "VJ_Botz")
-    CHID = int(getenv("CHID", "-1002416596650"))
+    CHID = int(getenv("CHID", "-1002425184589"))
     SUDO = list(map(int, getenv("SUDO", "8023016938").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://ashinr2008:LGEMC9j6dsIvqqT0@cluster0.5pzpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
