@@ -7,7 +7,7 @@ from os import path, getenv
 
 class Config:
     API_ID = int(getenv("API_ID", "25047243"))
-    API_HASH = getenv("API_HASH", "f68cde581603434533bbdf92763d158b)
+    API_HASH = getenv("API_HASH", "f68cde581603434533bbdf92763d158b")
     BOT_TOKEN = getenv("BOT_TOKEN", "7760935742:AAFoisU71ElLwY-WJBLMx9_8x-RnQI2Xvcc")
     FSUB = getenv("FSUB", "VJ_Botz")
     CHID = int(getenv("CHID", "-1002416596650"))
